@@ -181,5 +181,5 @@ while(loop):
         loop=0
 result=result[::-1]
 result_no=result_no[::-1]
-print(result)
-print(result_no)
+print('Way coordinates=\n',result)
+print('No of steps:\n',result_no)
