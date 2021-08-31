@@ -147,7 +147,7 @@ fill=np.array([[10000]*len(nodes)])
 fill=np.transpose(fill)
 
 nodes=np.concatenate((nodes,fill), axis=1) # Col 2 is the distance
-nodes=np.concatenate((nodes,fill), axis=1) # Col 3 is the from row number
+nodes=np.concatenate((nodes,fill), axis=1) # Col 3 is the from where (source) row number
 nodes=np.concatenate((nodes,fill), axis=1) # Col 4 is denoting that it was used before as reference
 nodes[0][2]=0
 
