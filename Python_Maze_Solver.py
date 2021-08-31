@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Python Maze Solver
-
+python 3.8
+Finds a way out to solve the maze.
+When there is only one way, it shows the solution.
+Otherwise, it opens all the path available.
 Algorithm:
     The coordinates which have only one way out, make them zero
 """
