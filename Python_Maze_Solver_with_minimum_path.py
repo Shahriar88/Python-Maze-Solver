@@ -140,8 +140,6 @@ nodes=mark_node(a,row,col,start,end,2)            #>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 # Now use Dijkstra's Algorithm
-
-DjsA=nodes.copy() # DjsA[0]=Row, DjsA[1]=Col
 zz=len(nodes)
 fill=np.array([[10000]*len(nodes)])
 fill=np.transpose(fill)
