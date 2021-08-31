@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Python Maze Solver with minimum path
-
+python 3.8
 Algorithm:
     1. The coordinates which have only one way out, make them zero
     2. Then use Dijkstra's Algorithm to find out the minimum path 
